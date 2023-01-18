@@ -13,6 +13,7 @@
 		4A4A46732975382B0043A679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4A46712975382B0043A679 /* Main.storyboard */; };
 		4A4A46752975382C0043A679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4A46742975382C0043A679 /* Assets.xcassets */; };
 		4A4A46782975382C0043A679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4A46762975382C0043A679 /* LaunchScreen.storyboard */; };
+		4A4A468829754F710043A679 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4A468729754F710043A679 /* Media.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4A4A46742975382C0043A679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A4A46772975382C0043A679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4A46792975382C0043A679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4A468729754F710043A679 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +60,11 @@
 			children = (
 				4A4A466B2975382B0043A679 /* AppDelegate.swift */,
 				4A4A466D2975382B0043A679 /* SceneDelegate.swift */,
+				4A4A468729754F710043A679 /* Media.swift */,
 				4A4A466F2975382B0043A679 /* ViewController.swift */,
 				4A4A46712975382B0043A679 /* Main.storyboard */,
-				4A4A46742975382C0043A679 /* Assets.xcassets */,
 				4A4A46762975382C0043A679 /* LaunchScreen.storyboard */,
+				4A4A46742975382C0043A679 /* Assets.xcassets */,
 				4A4A46792975382C0043A679 /* Info.plist */,
 			);
 			path = URLSession;
@@ -141,6 +144,7 @@
 				4A4A46702975382B0043A679 /* ViewController.swift in Sources */,
 				4A4A466C2975382B0043A679 /* AppDelegate.swift in Sources */,
 				4A4A466E2975382B0043A679 /* SceneDelegate.swift in Sources */,
+				4A4A468829754F710043A679 /* Media.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
